@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/GorunowMaxim/test-only/static/css/main.9f1f9a22.css",
+    "main.js": "/GorunowMaxim/test-only/static/js/main.bad825b5.js",
+    "index.html": "/GorunowMaxim/test-only/index.html",
+    "static/media/left-arrow.svg": "/GorunowMaxim/test-only/static/media/left-arrow.f992fd0b2072543913c8a35cb88259b1.svg",
+    "static/media/right-arrow.svg": "/GorunowMaxim/test-only/static/media/right-arrow.e5c0d75833cba8e23a12c06b1999a09c.svg",
+    "static/media/swiper-arrow.svg": "/GorunowMaxim/test-only/static/media/swiper-arrow.42a00e1042e62dbb933e.svg",
+    "main.9f1f9a22.css.map": "/GorunowMaxim/test-only/static/css/main.9f1f9a22.css.map",
+    "main.bad825b5.js.map": "/GorunowMaxim/test-only/static/js/main.bad825b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f1f9a22.css",
+    "static/js/main.bad825b5.js"
+  ]
+}
