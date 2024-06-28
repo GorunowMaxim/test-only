@@ -1,0 +1,43 @@
+.years {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    font-size: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    z-index: -100;
+}
+
+.year {
+    transition: 0.3s ease;
+
+    &_blue {
+        color: #5d5fef;
+    }
+
+    &_purple {
+        color: #ef5da8;
+    }
+}
+
+@media (max-width: 1200px) {
+    .years{
+        font-size: 160px;
+    }
+}
+
+@media (max-width: 800px) {
+    .years{
+        font-size: 80px;
+    }
+}
+@media (max-width: 500px) {
+    .years{
+        font-size: 50px;
+        gap: 20px;
+    }
+}

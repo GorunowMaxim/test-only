@@ -1,0 +1,37 @@
+.circle-wrapper {
+    width: 530px;
+    height: 530px;
+    position: relative;
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    margin: 0 auto;
+}
+
+.circle {
+    width: 530px;
+    height: 530px;
+    border-radius: 50%;
+    transition: 0.6s ease-out;
+    border: 1px solid rgba(66, 86, 122, 0.2);
+}
+
+@media(max-width: 800px) {
+    .circle {
+        display: none;
+
+        &-wrapper {
+            width: 100vw;
+        }
+    }
+}
+
+@media(max-width: 500px) {
+    .circle {
+        display: none;
+
+        &-wrapper {
+            width: 100vw;
+            height: 200px;
+        }
+    }
+}
